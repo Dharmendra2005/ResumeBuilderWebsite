@@ -270,7 +270,7 @@ const ResumeCard = ({ resume, onDelete, onDuplicate }) => {
       >
         <div>
           <p className="text-gray-600 mb-6">
-            Are you sure you want to delete "{resume.title || 'Untitled Resume'}"? This action cannot be undone.
+            Are you sure you want to delete ? "{resume.title || 'Untitled Resume'}"? This action cannot be undone.
           </p>
 
           <div className="flex items-center justify-end space-x-3">
