@@ -55,7 +55,7 @@ const ProjectsSection = ({ data = [], targetRole, onUpdate }) => {
             className="w-full flex items-center justify-center space-x-2 px-4 py-3 border-2 border-dashed border-gray-300 rounded-lg text-gray-600 hover:border-primary hover:text-primary transition-colors"
           >
             <Plus className="w-5 h-5" />
-            <span className="font-medium">Add Project</span>
+            <span className="font-medium">Add Projects</span>
           </button>
 
           {/* Project Entries */}
